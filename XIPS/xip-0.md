@@ -2,7 +2,7 @@
 xip: 0
 title: The XIP Process
 description: Defines how Xochi Improvement Proposals are written, reviewed, and accepted
-author: DROO (@Hydepwns)
+author: DROO (@DROOdotFOO)
 discussions-to: https://github.com/xochi-fi/XIPs/issues/1
 status: Implemented
 type: Meta
