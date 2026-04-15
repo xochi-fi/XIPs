@@ -71,6 +71,8 @@ Optional but recommended: Rationale, Backwards Compatibility, Test Cases, Refere
 | Number                 | Title           | Type | Status      |
 | ---------------------- | --------------- | ---- | ----------- |
 | [XIP-0](XIPS/xip-0.md) | The XIP Process | Meta | Implemented |
+| [XIP-1](XIPS/xip-draft_settlement-splitting.md) | Settlement Splitting for Large Trades | Protocol | Draft |
+| [XIP-2](XIPS/xip-draft_adaptive-settlement-controls.md) | Adaptive Settlement Controls | Protocol | Draft |
 
 ## License
 
