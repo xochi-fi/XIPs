@@ -270,13 +270,12 @@ Split settlements MUST be accompanied by a pattern detection proof (circuit 0x03
 `finalizeTrade` accepts a `patternProofHash` parameter. The registry MUST verify:
 
 1. `patternProofHash != bytes32(0)`.
-2. Call `IXochiZKPOracle(oracle).getHistoricalProof(patternProofHash)` to retrieve the attestation. MUST revert if the attestation does not exist.
-3. Verify `attestation.subject == settlement.subject`.
-4. Verify `attestation.timestamp >= settlement.createdAt` (the proof was generated after trade registration).
+2. Call `IXochiZKPOracle(oracle).getProofType(patternProofHash)` and verify the result equals `PATTERN (0x03)`. This prevents a compliance or other proof type from being substituted.
+3. Call `IXochiZKPOracle(oracle).getHistoricalProof(patternProofHash)` to retrieve the attestation. MUST revert if the attestation does not exist.
+4. Verify `attestation.subject == settlement.subject`.
+5. Verify `attestation.timestamp >= settlement.createdAt` (the proof was generated after trade registration).
 
 If any check fails, `finalizeTrade` MUST revert with `PatternProofRequired(bytes32 tradeId)`.
-
-Note: the `ComplianceAttestation` struct does not store `proofType`. The registry cannot cryptographically verify that the provided proof is specifically a pattern detection proof (0x03) rather than another proof type. The caller is responsible for providing a valid pattern proof hash. This is a known limitation; a future Oracle version could expose proof type metadata to enable on-chain proof type verification.
 
 This ensures that settlement splitting cannot be used for transaction structuring without the protocol's anti-structuring circuit validating the pattern. The pattern detection circuit analyzes up to 16 transactions and flags clustering below reporting thresholds, excessive velocity, and round-amount patterns.
 
