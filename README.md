@@ -68,10 +68,11 @@ Optional but recommended: Rationale, Backwards Compatibility, Test Cases, Refere
 
 ## XIPs index
 
-| Number                 | Title                        | Type     | Status |
-| ---------------------- | ---------------------------- | -------- | ------ |
-| [XIP-0](XIPS/xip-0.md) | The XIP Process              | Meta     | Implemented |
-| [XIP-2](XIPS/xip-2.md) | Adaptive Settlement Controls | Protocol | Draft  |
+| Number                 | Title                                 | Type     | Status      |
+| ---------------------- | ------------------------------------- | -------- | ----------- |
+| [XIP-0](XIPS/xip-0.md) | The XIP Process                       | Meta     | Implemented |
+| [XIP-1](XIPS/xip-1.md) | Settlement Splitting for Large Trades | Protocol | Review      |
+| [XIP-2](XIPS/xip-2.md) | Adaptive Settlement Controls          | Protocol | Draft       |
 
 ## License
 
