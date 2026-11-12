@@ -1024,8 +1024,8 @@ Each v2 leg proof extends the previous leg's link, so legs are proved and record
 - 2026-05-13: Merged as Draft (`XIPS/xip-draft_settlement-splitting.md`), PR #1.
 - 2026-05-13: Reverted, PR #3 (mistaken merge).
 - 2026-11-12: Re-merged as `XIPS/xip-1.md`, Draft -> Review, PR #4. Text unchanged from PR #1, so it predated the ERC-8262 audit fixes H-1, H-2 and M-1 in the shipped code.
-- 2026-11-12: Review, amended in place: resynced to shipped ERC-8262 `f018627` and xochi-sdk `068c301` after a three-reviewer audit; `discussions-to` moved to #6; `requires: 0` removed.
-- 2026-11-12: Review, amended in place: added the anti-structuring target design as normative and Not yet implemented (Oracle threshold table, registry and lifecycle rules with a confess-and-flag path, OPTIONAL plan proof, REQUIRED v2 leg chain); tracked in ERC-8262 #37.
+- 2026-11-12: Review, amended in place: resynced to shipped ERC-8262 `f018627` and xochi-sdk `068c301` after a three-reviewer audit; `discussions-to` moved to #6; `requires: 0` removed. PR #9.
+- 2026-11-12: Review, amended in place: added the anti-structuring target design as normative and Not yet implemented (Oracle threshold table, registry and lifecycle rules with a confess-and-flag path, OPTIONAL plan proof, REQUIRED v2 leg chain); tracked in ERC-8262 #37. PR #9.
 
 ## Copyright
 

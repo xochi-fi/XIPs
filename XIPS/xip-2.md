@@ -577,7 +577,7 @@ Rule 6 stops further legs once the cumulative shortfall would exceed `maxTotalDe
 ## History
 
 - 2026-11-12: Merged as Draft (#2).
-- 2026-11-12: Resynced to shipped xochi-sdk, ERC-8262 and xochi on review; type Protocol -> Interface; retitled from "Adaptive Settlement Controls"; `discussions-to` fixed to #7; status stays Draft.
+- 2026-11-12: Resynced to shipped xochi-sdk, ERC-8262 and xochi on review; type Protocol -> Interface; retitled from "Adaptive Settlement Controls"; `discussions-to` fixed to #7; status stays Draft. PR #9.
 
 ## Copyright
 
