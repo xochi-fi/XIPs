@@ -156,7 +156,7 @@ If no non-author reviewer is available, proposals stall in Review rather than me
 ## History
 
 - 2026-04-07: Implemented (bootstrap).
-- 2026-11-12: Amended in place under the bootstrap clause: non-author approval, status table with actors, Rejected and Superseded statuses, History requirement, spec-and-code rule, Trust boundaries subsection, `discussions-to` fixed to #5.
+- 2026-11-12: Amended in place under the bootstrap clause: non-author approval, status table with actors, Rejected and Superseded statuses, History requirement, spec-and-code rule, Trust boundaries subsection, `discussions-to` fixed to #5. PR #8.
 
 ## Copyright
 
